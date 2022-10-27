@@ -1,0 +1,33 @@
+body{
+    background-color:bisque;
+}
+.product-grid{
+    align-items: center;
+}
+.item-container{
+    display: inline-block;
+    margin: 10px;
+    width: 250px;
+    height: 350px;
+}
+.search-field {
+    width: 21.5rem;
+    margin-top: 1.2rem;
+    height: 2.8em;
+    border-radius: 1.2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.search-icon {
+    width: 1.5rem;
+    position: relative;
+    bottom: 5.8rem;
+    left: 19rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    div#items{
+        padding: 0 6rem;
+    }
+}
